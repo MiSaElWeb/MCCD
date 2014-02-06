@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 .welcome {
     text-align: center;
     width: 100%;
-    background: url("../img/1px-pattern.png"), url("../img/welcome-bg.jpg") center right no-repeat;
+    background: url("../img/1px-pattern.png"), url("../img/welcome-bg.jpg") bottom right no-repeat;
     -webkit-background-size: 2px 2px, cover;
     background-size: 2px 2px, cover;
 }
@@ -634,6 +634,7 @@ h1, h2, h3, h4, h5, h6 {
 .team ul > li {
     float: left;
     width: 33.333%;
+    padding-left: 10px;
 }
 
 .team li li {
